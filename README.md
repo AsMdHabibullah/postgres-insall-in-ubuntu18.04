@@ -85,7 +85,7 @@ postgres=#
 
 Also we can use (man psql) command for postgresql help.
 
-For quite command install
+For quite to postgresql
 \q
 ```
 
