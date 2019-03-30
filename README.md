@@ -1,7 +1,6 @@
 
 # Install and Use PostgreSQL on Ubuntu 18.04
 # Also we can setup PostgreSQL for python django framework.
-============================================================
 
 First we need to install PostgreSQL & setup by the help of Ubuntu terminal & command.
 
@@ -90,8 +89,7 @@ For quite command install
 \q
 ```
 
-# For Django detup
-===================
+# For Django setup
 In  django settings file we need to put like this code.
 --------------------------------------------------
 Also we need to install psycopg2 by like this commande
