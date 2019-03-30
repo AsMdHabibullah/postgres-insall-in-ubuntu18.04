@@ -90,6 +90,28 @@ For quite command install
 \q
 ```
 
+# For Django detup
+===================
+In  django settings file we need to put like this code.
+--------------------------------------------------
+Also we need to install psycopg2 by like this commande
+---------------------------------------------------------
+```
+pip install psycopg2
+```
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'your database name',
+        'USER': 'database user name',
+        'PASSWORD': '@$',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+```
+
 ```
 Thanks
 AsMd Habibullah
